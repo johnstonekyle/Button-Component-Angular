@@ -1,14 +1,22 @@
 .btn-i {
     text-decoration: none;
     color: white;
-    padding: .5rem .8rem;
+    padding: 0;
     margin: 1rem;
-    background-size: cover;
+    background-color: transparent;
+    background-size: contain;
+    background-position: center;
     border: 0;
-    background-color: inherit;
+    height: 89px;
+    width: 76px;
 }
 
 .btn-i:hover {
     cursor: pointer;
     opacity: 0.5;
+}
+
+.btn-i img {
+    width: 50%;
+    height: 50%;
 }
